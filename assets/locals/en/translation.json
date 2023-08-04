@@ -1,0 +1,317 @@
+{
+  "language": "English",
+
+  "navHome": "Home",
+  "navWork": "Work",
+  "navAboutMe": "About Me",
+  "navContact": "Contact",
+
+  "appTitle": "Juan Cruz Olmos's Portfolio",
+  "heroTitle": "Hi! I'm Juan Cruz",
+  "heroSubtitle": "I love making appealing graphics with strong personalities",
+  "heroScroll": "Scroll Down",
+
+  "homeWorkTitle": "Featured Works",
+
+  "homeContactTitle": "Want To work with Me?",
+  "homeContactPlaceHolder": "Address me your email!",
+  "homeContactButton": "Let's work together!",
+  "homeContactLonger": "Click here to send a longer message",
+
+  "footNav": "Navigate",
+  "footWork": "My Works",
+  "footAboutMe": "About Me",
+  "footContact": "Let's hear from each other!",
+  "footSubs": "Subscribe to my newsletter",
+  "footPlaceHolder": "Input your email",
+  "footSubsButton": "Let's work together!",
+  "footPersonality": "Personality",
+  "footBrand": "Your Brand",
+  "footPerfection": "perFection",
+  "footPersonalityButton": "Make it together?",
+  "footCopyright": "© Juan Cruz Olmos 2023. All Rights Reserved.",
+
+  "workTitle": "Title:",
+  "workYear": "Year:",
+  "workButton": "Go Back",
+  "works": [
+    {
+      "name": "EuroSpin",
+      "title": "Euro Spin",
+      "shortTitle": "Euro Spin",
+      "description1": "This is a rebranding I did as a passion project. EuroSpin is an organized food distribution company at a big scale that operates in the 'discount channel'. They have more than 1200 stores in Italy, Slovenia and Croatia.",
+      "description2": "I decided to give the logo a fresher more friendly look, using a sans serif font that is very roundy and deconstructed; trying to push away the formalities when you go grocery shop.",
+      "description3": "The second part of the logo that represents 'SPesa INteligente', the slogan, was not clear or easy to decipher so I thought it would be better to unify the two words in the same color.",
+      "description4": "When we use the square shape with the circle of stars and then the name of the company, we make a crowded and unefficient logo, that is why I simplified it utilizing the star on the 'o' letter, giving the logo a lot more uses without it being contained on the two forms.",
+      "description5": "This second usage gives the brand a lot more freedom to use, making it comprehensible and playful. Also making it easily downscaleable for other usages.",
+      "description6": "The decision of using Balto as the font is because it is a very friendly and legible font family with various weights. This helps the brand to be more consistent visually.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardEuroSpin.png",
+      "imagesExtra": [
+        "../assets/img/eurospin01.png",
+        "../assets/img/eurospin02.png",
+        "../assets/img/eurospin03.png",
+        "../assets/img/eurospin04.png",
+        "../assets/img/eurospin06.png",
+        "../assets/img/eurospin07.png",
+        "../assets/img/eurospin08.png",
+        "../assets/img/eurospin09.png",
+        "../assets/img/eurospin10.png"
+      ],
+
+      "id": "EuroSpin"
+    },
+    {
+      "name": "DukiSantoGrial",
+      "title": "Duki - Santo Grial",
+      "shortTitle": "Duki - Santo Grial",
+      "description1": "This is a post designs I made of Duki's song 'Santo Grial' for my personal account.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardDuki.png",
+      "imagesExtra": [
+        "../assets/img/duki01.jpg",
+        "../assets/img/duki02.jpg",
+        "../assets/img/duki03.jpg",
+        "../assets/img/duki04.png",
+        "../assets/img/duki05.png",
+        "../assets/img/duki06.png",
+        "../assets/img/duki07.png",
+        "../assets/img/duki08.png"
+      ],
+
+      "id": "DukiSantoGrial"
+    },
+    {
+      "name": "JadeHotel",
+      "title": "Jade HoteL",
+      "shortTitle": "Jade Hotel",
+      "description1": "This is a brand that was born based on a post of Brief Club (@briefclub on Instagram), they post a brief per week for people to engage on the challenge of creating different brands.",
+      "description2": "Jade is a mediterranean holistic wellness hotel that required a logo and a price list, any extras were accepted.",
+      "description3": "My take on this project was the idea of it being a very wellness centered space, making different graphic options of the wellness and holistic ideas. Making use of the third eye, the circled-top windows, the stars and obviously a jade gem.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardJade.png",
+      "imagesExtra": [
+        "../assets/img/jade01.png",
+        "../assets/img/jade02.png",
+        "../assets/img/jade03.png",
+        "../assets/img/jade04.png",
+        "../assets/img/jade05.png",
+        "../assets/img/jade06.png",
+        "../assets/img/jade07.png"
+      ],
+
+      "id": "JadeHotel"
+    },
+    {
+      "name": "GohanHouse",
+      "title": "Gohan House",
+      "shortTitle": "Gohan House",
+      "description1": "Gohan House is a 'poke bowl' bar in Nueva Córdoba, Córdoba, Argentina. I worked as a graphic designer, making appealing graphics for the social media posts and stories.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardGohan.png",
+      "imagesExtra": [
+        "../assets/img/gohan01.png",
+        "../assets/img/gohan02.png",
+        "../assets/img/gohan03.png",
+        "../assets/img/gohan04.png",
+        "../assets/img/gohan05.png",
+        "../assets/img/gohan06.png",
+        "../assets/img/gohan07.png",
+        "../assets/img/gohan08.png",
+        "../assets/img/gohan09.png"
+      ],
+
+      "id": "GohanHouse"
+    },
+    {
+      "name": "NewEraBattles",
+      "title": "NeweRa BattlEs",
+      "shortTitle": "newEra Battles",
+      "description1": "newEra Battles is a freestyle hip hop battle event that looked to innovate on the format, trying to be the newer option for this kind of event.",
+      "year": 2022,
+
+      "slideImage": "../assets/img/CardNewEraBattles.png",
+      "imagesExtra": [
+        "../assets/img/neb01.gif",
+        "../assets/img/neb02.png",
+        "../assets/img/neb03.png",
+        "../assets/img/neb04.png",
+        "../assets/img/neb05.png",
+        "../assets/img/neb06.png",
+        "../assets/img/neb07.png",
+        "../assets/img/neb08.png"
+      ],
+
+      "id": "newEraBattles"
+    },
+    {
+      "name": "Poster2022",
+      "title": "Poster Design 2022",
+      "shortTitle": "Poster Design 2022",
+      "description1": "This were the first time I got in touch with poster designing, using Adobe Photoshop as the main tool.",
+      "year": 2022,
+
+      "slideImage": "../assets/img/CardPoster2022.png",
+      "imagesExtra": [
+        "../assets/img/poster202201.png",
+        "../assets/img/poster202202.png"
+      ],
+
+      "id": "PosterDesign2022"
+    },
+    {
+      "name": "Poster2023",
+      "title": "Poster Design 2023",
+      "shortTitle": "Poster Design 2023",
+      "description1": "Posters made during the 2023, exploring newer tools and experimenting a little more without judging the process.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardPoster2023.png",
+      "imagesExtra": [
+        "../assets/img/poster202301.png",
+        "../assets/img/poster202302.png",
+        "../assets/img/poster202303.png",
+        "../assets/img/poster202304.png"
+      ],
+
+      "id": "PosterDesign2023"
+    },
+    {
+      "name": "MyWay",
+      "title": "mY Way",
+      "shortTitle": "My Way",
+      "description1": "My Way is an online english academy that was looking to refresh their brand, giving it a more modern and clean look.",
+      "description2": "We worked on getting the teaching/learning instruments inside the logo, as they were expecting an academy to give the sensation of being part of the education system.",
+      "year": 2022,
+
+      "slideImage": "../assets/img/CardMyWay.png",
+      "imagesExtra": [
+        "../assets/img/myway01.png",
+        "../assets/img/myway02.png",
+        "../assets/img/myway03.png",
+        "../assets/img/myway04.png"
+      ],
+
+      "id": "MyWay"
+    },
+    {
+      "name": "KiMgm",
+      "title": "kI ManaGemeNt",
+      "shortTitle": "Ki Management",
+      "description1": "Ki Management is a real estate agency based on Valencia, Spain. The focus of the agency is to handle properties on short and long term rentals.",
+      "description2": "As the central icon of the brand, I tried using a variation of the letters as the client requested, looking for symmetry and balance. I also used the key holes and the key shapes as inspiration.",
+      "description3": "We used earth related colors, like brown, to give the sensation that the agency has the foot on the ground, is trust-worthy and responsible.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardKiManagement.png",
+      "imagesExtra": [
+        "../assets/img/kimgm01.png",
+        "../assets/img/kimgm02.png",
+        "../assets/img/kimgm03.png",
+        "../assets/img/kimgm04.png",
+        "../assets/img/kimgm05.png",
+        "../assets/img/kimgm06.png"
+      ],
+
+      "id": "KiManagement"
+    },
+    {
+      "name": "Arehucas",
+      "title": "AreHucas",
+      "shortTitle": "Arehucas Rum",
+      "description1": "Arehucas is a rum brand from Islas Canarias, Spain. They were looking on landing on the ecuadorian market through Elephant Digital Group.",
+      "description2": "I worked on the social media posts and stories. Utilizing photgraphs taken by the agency, and tools such as Adobe Illustrator, Adobe Photoshop and Adobe After Effects.",
+      "year": 2021,
+
+      "slideImage": "../assets/img/CardArehucas.png",
+      "imagesExtra": [
+        "../assets/img/arehucas01.png",
+        "../assets/img/arehucas02.png",
+        "../assets/img/arehucas03.png",
+        "../assets/img/arehucas04.png",
+        "../assets/img/arehucas05.png"
+      ],
+
+      "id": "Arehucas"
+    }
+  ],
+
+  "contactTitle": "ContAct mE",
+  "contactSub": "Let's get in touch!",
+  "contactFormName": "Your Full Name",
+  "contactFormEmail": "Your Email",
+  "contactFormMessage": "Your Message",
+  "contactFormButton": "Just send it!",
+  "contactMailButton": "Send a message!",
+  "contactWhatsAppButton": "Let's chat!",
+  "contactLinkedInButton": "Want to connect with me?",
+
+  "aboutTitle": "I'm Juan Cruz",
+  "aboutSub1": "I work as a ",
+  "aboutSubItalic": "Graphic Designer",
+  "aboutSub2": " but I can do a lot of stuff!",
+  "aboutPhrase1": "Born and raised in Córdoba, Argentina, graduated with a Bachelor on Advertisement at Universidad Siglo 21, started working as an Account Executive where my passion for visual and digital designing emerged. Gained a lot of international experience in different agencies around the world. At the time I spetialize myself on branding and logo creation.",
+  "aboutPhrase2": "Most of my experience is in the graphic design world, but my curiosity led me to get to know with the world of ",
+  "aboutPhraseItalic": "photography, coding and digital ads.",
+  "aboutPhrase3": "I'm a very creative and outgoing person. I love learning new things and I'm pretty fast doing it!",
+  "aboutQuestion": "Where Did I Work?",
+
+  "experiences": [
+    {
+      "name": "Weiv",
+      "company": "Weiv",
+      "role": "Graphic Designer",
+      "year": "12/2022 - 04/2023",
+      "description": "Conceptualized and created visual designs that effectively communicated clients message and brands identities.",
+
+      "id": "Weiv"
+    },
+    {
+      "name": "Gohan House",
+      "company": "Gohan House",
+      "role": "Graphic Designer (Freelance)",
+      "year": "12/2022 - 03/2023",
+      "description": "Created high-quality designs that were visually appealing and consistent with clients brand guidelines for social media posts.",
+
+      "id": "GohanHouse"
+    },
+    {
+      "name": "newEraBattles",
+      "company": "newEra Battles",
+      "role": "Graphic Designer (Freelance)",
+      "year": "05/2022 - 08/2023",
+      "description": "Designed the brand identity and create a range of print and digital materials such as brochures, flyers, social media graphics, and more.",
+
+      "id": "newEraBattles"
+    },
+    {
+      "name": "ElephantDigitalGroup",
+      "company": "Elephant Digital Group",
+      "role": "Graphic Designer",
+      "year": "06/2021 - 08/2021",
+      "description": "Prepared and delivered final design files and videos in various formats for different brands.",
+
+      "id": "ElephantDigitalGroup"
+    },
+    {
+      "name": "AgenciaMove",
+      "company": "Agencia Move",
+      "role": "Account Executive",
+      "year": "01/2021 - 06/2021",
+      "description": [
+        "Managed and grew relationships with clients to ensure their satisfaction and achieve business goals.",
+        "Collaborated with other team members to develop and implement effective marketing strategies and campaigns.",
+        "Acted as a primary point of contact for clients, responding to inquiries and providing support as needed."
+      ],
+
+      "id": "AgenciaMove"
+    }
+  ],
+  "aboutDownQuestion": "Want To Know More?",
+  "aboutDownButton": "Download my Curriculum!",
+  "aboutDownLink": "../assets/pdf/English - Olmos Juan Cruz.pdf"
+}

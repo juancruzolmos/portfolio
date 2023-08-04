@@ -1,0 +1,322 @@
+{
+  "language": "Slovensko",
+
+  "navHome": "Domov",
+  "navWork": "Službe",
+  "navAboutMe": "O Meni",
+  "navContact": "Kontakt",
+
+  "heroTitle": "Zdravo! Jaz sem Juan Cruz",
+  "heroSubtitle": "Rad ustvarjam privlačno grafiko z močnimi osebnostmi!",
+  "heroScroll": "Pomaknite Navzdol",
+
+  "homeWorkTitle": "Predstavljena Dela",
+
+  "homeContactTitle": "Želite dElati z mano?",
+  "homeContactPlaceHolder": "Naslovite mi svoj email!",
+  "homeContactButton": "Sodelujmo!",
+  "homeContactLonger": "Kliknite tukaj če želite poslati daljše sporočilo",
+
+  "footNav": "Navigacija",
+  "footWork": "Moja Dela",
+  "footAboutMe": "O Meni",
+  "footContact": "Slišimo se!",
+  "footSubs": "Naročite se na moje novice",
+  "footPlaceHolder": "Vnesite svoj e-poštni naslov",
+  "footSubsButton": "Delajmo skupaj!",
+  "footPersonality": "Osebnost",
+  "footBrand": "Vaša blagovna znamka",
+  "footPerfection": "poPolnost",
+  "footPersonalityButton": "Uspeti skupaj?",
+  "footCopyright": "© Juan Cruz Olmos 2023. Vse pravice pridržane.",
+
+  "workTitle": "Naslov:",
+  "workYear": "Leto:",
+  "workButton": "Pojdi nazaj",
+  "works": [
+    {
+      "name": "EuroSpin",
+      "title": "Euro Spin",
+      "shortTitle": "Euro Spin",
+      "description1": "To je prenova blagovne znamke, ki sem jo naredil kot strasten projekt. EuroSpin je organizirano podjetje za distribucijo hrane v velikem obsegu, ki deluje v 'diskontnem kanalu'. V Italiji, Sloveniji in na Hrvaškem imajo več kot 1200 trgovin.",
+      "description2": "Odločil sem se dati logotipu bolj svež in prijazen videz z uporabo pisave brez serifov, ki je zelo okrogla in dekonstruirana; poskušam odriniti formalnosti, ko greš v trgovino.",
+      "description3": "Drugi del logotipa, ki predstavlja slogan 'SPesa INtelligente', ni bil jasen ali enostaven za dešifriranje, zato sem pomislil, da bi bilo bolje obe besedi poenotiti v isti barvi.",
+      "description4": "Ko uporabimo kvadratno obliko s krogom zvezdic in nato imenom podjetja, naredimo natrpan in neučinkovit logotip, zato sem ga poenostavil z uporabo zvezdice na črki 'o', kar je dalo logotipu veliko več uporabnosti ne da bi bil vsebovan v obeh obrazcih.",
+      "description5": "Ta druga uporaba daje znamki veliko več svobode pri uporabi, zaradi česar je razumljiva in igriva. Prav tako ga je mogoče enostavno zmanjšati za druge uporabe.",
+      "description6": "Odločitev za uporabo Balto kot pisave je zato, ker je zelo prijazna in berljiva družina pisav z različnimi težami. To pomaga, da je blagovna znamka vizualno bolj dosledna.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardEuroSpin.png",
+      "imagesExtra": [
+        "../assets/img/eurospin01.png",
+        "../assets/img/eurospin02.png",
+        "../assets/img/eurospin03.png",
+        "../assets/img/eurospin04.png",
+        "../assets/img/eurospin06.png",
+        "../assets/img/eurospin07.png",
+        "../assets/img/eurospin08.png",
+        "../assets/img/eurospin09.png",
+        "../assets/img/eurospin10.png"
+      ],
+
+      "id": "EuroSpin"
+    },
+    {
+      "name": "DukiSantoGrial",
+      "title": "Duki - Santo Grial",
+      "shortTitle": "Duki - Santo Grial",
+      "description1": "To je dizajn objave, ki sem ga naredil iz Dukijeve pesmi 'Santo Grial' za svoj osebni račun.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardDuki.png",
+      "imagesExtra": [
+        "../assets/img/duki01.jpg",
+        "../assets/img/duki02.jpg",
+        "../assets/img/duki03.jpg",
+        "../assets/img/duki04.png",
+        "../assets/img/duki05.png",
+        "../assets/img/duki06.png",
+        "../assets/img/duki07.png",
+        "../assets/img/duki08.png"
+      ],
+
+      "id": "DukiSantoGrial"
+    },
+    {
+      "name": "JadeHotel",
+      "title": "Jade HoteL",
+      "shortTitle": "Jade Hotel",
+      "description1": "To je blagovna znamka, ki se je rodila na podlagi objave Brief Cluba (@briefclub na Instagramu). Vsak teden objavijo brief, da se ljudje vključijo v izziv ustvarjanja različnih blagovnih znamk.",
+      "description2": "Jade je mediteranski holistični wellness hotel, ki je zahteval logotip in cenik, vsi dodatki so bili sprejeti.",
+      "description3": "Moj pogled na ta projekt je bila zamisel, da gre za prostor, osredotočen na dobro počutje, ki ustvarja različne grafične možnosti wellnessa in celostne ideje. Uporaba tretjega očesa, zaokroženih zgornjih oken, zvezd in očitno dragulja iz žada.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardJade.png",
+      "imagesExtra": [
+        "../assets/img/jade01.png",
+        "../assets/img/jade02.png",
+        "../assets/img/jade03.png",
+        "../assets/img/jade04.png",
+        "../assets/img/jade05.png",
+        "../assets/img/jade06.png",
+        "../assets/img/jade07.png"
+      ],
+
+      "id": "JadeHotel"
+    },
+    {
+      "name": "GohanHouse",
+      "title": "Gohan House",
+      "shortTitle": "Gohan House",
+      "description1": "Gohan House je 'poke bowl' bar v mestu Nueva Córdoba v Córdobi v Argentini. Delal sem kot grafični oblikovalec in izdeloval privlačne grafike za objave in zgodbe na družbenih medijih.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardGohan.png",
+      "imagesExtra": [
+        "../assets/img/gohan01.png",
+        "../assets/img/gohan02.png",
+        "../assets/img/gohan03.png",
+        "../assets/img/gohan04.png",
+        "../assets/img/gohan05.png",
+        "../assets/img/gohan06.png",
+        "../assets/img/gohan07.png",
+        "../assets/img/gohan08.png",
+        "../assets/img/gohan09.png"
+      ],
+
+      "id": "GohanHouse"
+    },
+    {
+      "name": "NewEraBattles",
+      "title": "NeweRa BattlEs",
+      "shortTitle": "newEra Battles",
+      "description1": "newEra Battles je freestyle hip hop bojni dogodek, ki je želel prenoviti format in skušal biti novejša možnost za tovrstne dogodke.",
+      "year": 2022,
+
+      "slideImage": "../assets/img/CardNewEraBattles.png",
+      "imagesExtra": [
+        "../assets/img/neb01.gif",
+        "../assets/img/neb02.png",
+        "../assets/img/neb03.png",
+        "../assets/img/neb04.png",
+        "../assets/img/neb05.png",
+        "../assets/img/neb06.png",
+        "../assets/img/neb07.png",
+        "../assets/img/neb08.png"
+      ],
+
+      "id": "newEraBattles"
+    },
+    {
+      "name": "Poster2022",
+      "title": "Poster Design 2022",
+      "shortTitle": "Poster Design 2022",
+      "description1": "Tokrat sem se prvič srečal z oblikovanjem plakatov, pri čemer sem kot glavno orodje uporabljal Adobe Photoshop.",
+      "year": 2022,
+
+      "slideImage": "../assets/img/CardPoster2022.png",
+      "imagesExtra": [
+        "../assets/img/poster202301.png",
+        "../assets/img/poster202302.png",
+        "../assets/img/poster202303.png",
+        "../assets/img/poster202304.png"
+      ],
+
+      "id": "PosterDesign2022"
+    },
+    {
+      "name": "Poster2023",
+      "title": "Poster Design 2023",
+      "shortTitle": "Poster Design 2023",
+      "description1": "Plakati, narejeni v letu 2023, raziskujejo novejša orodja in malo več eksperimentirajo, ne da bi presojali postopek.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardPoster2023.png",
+      "imagesExtra": [
+        "../assets/img/poster202301.png",
+        "../assets/img/poster202302.png",
+        "../assets/img/poster202303.png",
+        "../assets/img/poster202304.png",
+        "../assets/img/poster202305.png",
+        "../assets/img/poster202306.png",
+        "../assets/img/poster202307.png",
+        "../assets/img/poster202308.png"
+      ],
+
+      "id": "PosterDesign2023"
+    },
+    {
+      "name": "MyWay",
+      "title": "mY Way",
+      "shortTitle": "My Way",
+      "description1": "My Way je spletna angleška akademija, ki je želela osvežiti svojo blagovno znamko ter ji dati sodobnejši in čistejši videz.",
+      "description2": "Delali smo na tem, da bi instrumente za poučevanje/učenje vključili v logotip, saj so pričakovali, da bo akademija dajala občutek, da so del izobraževalnega sistema.",
+      "year": 2022,
+
+      "slideImage": "../assets/img/CardMyWay.png",
+      "imagesExtra": [
+        "../assets/img/myway01.png",
+        "../assets/img/myway02.png",
+        "../assets/img/myway03.png",
+        "../assets/img/myway04.png"
+      ],
+
+      "id": "MyWay"
+    },
+    {
+      "name": "KiMgm",
+      "title": "kI ManaGemeNt",
+      "shortTitle": "Ki Management",
+      "description1": "Ki Management je nepremičninska agencija s sedežem v Valenciji v Španiji. Agencija se osredotoča na kratkoročne in dolgoročne najeme nepremičnin.",
+      "description2": "Kot osrednja ikona znamke sem poskušal uporabiti variacijo črk, kot je zahtevala stranka, pri čemer sem iskal simetrijo in ravnovesje. Kot navdih sem uporabil tudi luknje za ključe in oblike ključev.",
+      "description3": "Uporabili smo barve, ki so povezane z zemljo, kot je rjava, da bi dali občutek, da agencija stoji na tleh, je vredna zaupanja in odgovorna.",
+      "year": 2023,
+
+      "slideImage": "../assets/img/CardKiManagement.png",
+      "imagesExtra": [
+        "../assets/img/kimgm01.png",
+        "../assets/img/kimgm02.png",
+        "../assets/img/kimgm03.png",
+        "../assets/img/kimgm04.png",
+        "../assets/img/kimgm05.png",
+        "../assets/img/kimgm06.png"
+      ],
+
+      "id": "KiManagement"
+    },
+    {
+      "name": "Arehucas",
+      "title": "AreHucas",
+      "shortTitle": "Arehucas Rum",
+      "description1": "Arehucas je blagovna znamka ruma iz Islas Canarias v Španiji. Prek Elephant Digital Group so iskali pristanek na ekvadorskem trgu.",
+      "description2": "Delal sem na objavah in zgodbah na družbenih medijih. Uporaba fotografij, ki jih je posnela agencija, in orodij, kot so Adobe Illustrator, Adobe Photoshop in Adobe After Effects.",
+      "year": 2021,
+
+      "slideImage": "../assets/img/CardArehucas.png",
+      "imagesExtra": [
+        "../assets/img/arehucas01.png",
+        "../assets/img/arehucas02.png",
+        "../assets/img/arehucas03.png",
+        "../assets/img/arehucas04.png",
+        "../assets/img/arehucas05.png"
+      ],
+
+      "id": "Arehucas"
+    }
+  ],
+
+  "contactTitle": "KontAktiraj Me",
+  "contactSub": "Stopimo v stik!",
+  "contactFormName": "Tvoje polno ime",
+  "contactFormEmail": "Vaš e-poštni naslov",
+  "contactFormMessage": "Tvoje sporočilo",
+  "contactFormButton": "Samo pošlji!",
+  "contactMailButton": "Poslati sporočilo!",
+  "contactWhatsAppButton": "Poklepetajmo!",
+  "contactLinkedInButton": "Želite se povezati z mano?",
+
+  "aboutTitle": "Jaz sem Juan Cruz",
+  "aboutSub1": "Delam kot a ",
+  "aboutSubItalic": "Grafični oblikovalec",
+  "aboutSub2": " vendar lahko naredim veliko stvari!",
+  "aboutPhrase1": "Rojen in odraščal v Córdobi v Argentini, diplomiral iz oglaševanja na Universidad Siglo 21, začel delati kot vodja računa, kjer se je pojavila moja strast do vizualnega in digitalnega oblikovanja. Pridobil veliko mednarodnih izkušenj v različnih agencijah po svetu. Takrat se specializiram za ustvarjanje blagovnih znamk in logotipov.",
+  "aboutPhrase2": "Največ izkušenj imam v svetu grafičnega oblikovanja, vendar me je radovednost vodila k spoznavanju sveta ",
+  "aboutPhraseItalic": "fotografija, kodiranje in digitalni oglasi.",
+  "aboutPhrase3": "Sem zelo ustvarjalna in odprta oseba. Rad se učim novih stvari in to počnem precej hitro!",
+  "aboutQuestion": "Kje Sem deLal?",
+
+  "experiences": [
+    {
+      "name": "Weiv",
+      "company": "Weiv",
+      "role": "Grafični Oblikovalec",
+      "year": "12/2022 - 04/2023",
+      "description": "Konceptualiziran in ustvarjen vizualni dizajn, ki učinkovito sporoča sporočila strank in identiteto blagovne znamke.",
+
+      "id": "Weiv"
+    },
+    {
+      "name": "Gohan House",
+      "company": "Gohan House",
+      "role": "Grafični Oblikovalec (Freelance)",
+      "year": "12/2022 - 03/2023",
+      "description": "Ustvaril je visokokakovostne dizajne, ki so bili vizualno privlačni in skladni s smernicami blagovnih znamk strank za objave v družbenih medijih.",
+
+      "id": "GohanHouse"
+    },
+    {
+      "name": "newEraBattles",
+      "company": "newEra Battles",
+      "role": "Grafični Oblikovalec (Freelance)",
+      "year": "05/2022 - 08/2023",
+      "description": "Oblikoval je identiteto blagovne znamke in ustvaril različne tiskane in digitalne materiale, vključno z brošurami, letaki, grafiko družbenih medijev in še več.",
+
+      "id": "newEraBattles"
+    },
+    {
+      "name": "ElephantDigitalGroup",
+      "company": "Elephant Digital Group",
+      "role": "Grafični Oblikovalec",
+      "year": "06/2021 - 08/2021",
+      "description": "Pripravljene in dostavljene končne oblikovalske datoteke in videi v različnih formatih za različne blagovne znamke.",
+
+      "id": "ElephantDigitalGroup"
+    },
+    {
+      "name": "AgenciaMove",
+      "company": "Agencia Move",
+      "role": "Vodja Računa",
+      "year": "01/2021 - 06/2021",
+      "description": [
+        "Upravljal in razvijal odnose s strankami za zagotavljanje zadovoljstva strank in doseganje poslovnih ciljev.",
+        "Sodeloval z drugimi člani ekipe pri razvoju in izvajanju učinkovitih marketinških strategij in kampanj.",
+        "Deloval je kot primarna kontaktna točka za stranke, odgovarjal na vprašanja in nudil podporo po potrebi."
+      ],
+
+      "id": "AgenciaMove"
+    }
+  ],
+  "aboutDownQuestion": "Želite Vedeti vEč?",
+  "aboutDownButton": "Prenesite moj učni načrt!",
+  "aboutDownLink": "../assets/pdf/Slovensko - Olmos Juan Cruz.pdf"
+}
