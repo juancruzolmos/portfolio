@@ -21,10 +21,10 @@ import WorkSpecific from "./components/pages/work/WorkSpecific";
 
 export default function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="./" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="work" element={<Work />}>
             <Route index element={<WorkDefault />} />
