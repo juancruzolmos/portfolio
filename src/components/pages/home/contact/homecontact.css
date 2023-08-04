@@ -1,0 +1,65 @@
+#contacto {
+  border: 1px solid var(--color-back);
+  border-bottom: 1px transparent;
+  width: 90%;
+  padding: 6rem 0 5rem;
+  margin: 0 auto;
+}
+#contacto .contacto__container {
+  width: 75%;
+  height: 25vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-mid);
+}
+#contacto .contacto__container h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-high);
+}
+#contacto .contacto__container form {
+  display: flex;
+  gap: 1.2rem;
+  margin: 0 auto;
+  font-family: var(--font-normal);
+}
+#contacto .contacto__container form input {
+  width: 25vw;
+  border-bottom: 1px solid var(--color-back);
+  background: transparent;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: var(--color-high);
+}
+#contacto .contacto__container form ::-moz-placeholder {
+  color: var(--color-mid);
+  font-family: var(--font-normal);
+  font-weight: 300;
+  font-size: 1rem;
+}
+#contacto .contacto__container form ::placeholder {
+  color: var(--color-mid);
+  font-family: var(--font-normal);
+  font-weight: 300;
+  font-size: 1rem;
+}
+#contacto .contacto__container .contacto__long {
+  margin-top: 1.2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+  color: var(--color-mid);
+  border-bottom: 1px solid transparent;
+}
+#contacto .contacto__container .contacto__long h6 {
+  font-family: var(--font-italic);
+  font-style: italic;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=homecontact.css.map */

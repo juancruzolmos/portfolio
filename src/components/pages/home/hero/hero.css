@@ -1,0 +1,98 @@
+@import url("https://use.typekit.net/ump5clw.css");
+.hero {
+  height: 90vh;
+  width: 90%;
+  padding: 7rem;
+  color: var(--color-mid);
+  border: 1px solid var(--color-back);
+  border-bottom: 1px transparent;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.hero #hero__video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+  opacity: 0.5;
+}
+
+.hero__container {
+  margin-top: 0;
+  text-align: center;
+  display: flex;
+  background: rgba(240, 240, 245, 0.9);
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__container h1 {
+  font-size: 6rem;
+  align-items: center;
+  font-family: var(--font-display);
+  color: var(--color-high);
+}
+.hero__container h2 {
+  color: var(--color-back);
+}
+
+.hero__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 0.8rem;
+  left: 3rem;
+  bottom: 3rem;
+}
+.hero__socials a {
+  color: var(--color-back);
+  font-size: 1.4rem;
+}
+
+.hero__socials::after {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background-color: var(--color-back);
+}
+
+.scroll__down {
+  position: absolute;
+  right: 2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--color-back);
+}
+.scroll__down:hover {
+  color: var(--color-high);
+}
+
+/* ========================= Media Queries ========================= */
+@media screen and (max-width: 1400px) {
+  .hero {
+    height: 75vh;
+  }
+}
+@media screen and (max-width: 875px) {
+  .hero {
+    height: 50vh;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero h2 {
+    max-width: 75%;
+    align-self: center;
+  }
+  .hero__socials,
+  .scroll__down {
+    display: none;
+  }
+}/*# sourceMappingURL=hero.css.map */

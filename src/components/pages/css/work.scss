@@ -1,0 +1,535 @@
+.default {
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 0 auto 0.5rem;
+
+  .work__grid {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 0.5rem;
+    justify-items: center;
+    grid-template-columns: repeat(3, 2fr);
+  }
+
+  .work__items {
+    height: min-content;
+    .default-card {
+      text-align: center;
+      height: fit-content;
+      border: 1px solid var(--color-back);
+      .default-card-image {
+        object-fit: contain;
+        border-bottom: 1px solid var(--color-back);
+        margin: 0 auto;
+      }
+      .default-card-info {
+        background: var(--color-fore);
+        padding: 0.6rem;
+        h2 {
+          font-weight: bold;
+          font-size: 2rem;
+          @media screen and (max-width: 1400px) {
+            font-size: 1.2rem;
+          }
+        }
+        p {
+          font-size: 0.9rem;
+          font-style: italic;
+          @media screen and (max-width: 875px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ------- Global on Pages ------- //
+.specific {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  .work__info {
+    margin: 1rem 0;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h5 {
+      font-size: 0.8rem;
+    }
+    .work__title {
+      font-size: 5rem;
+      font-weight: 600;
+      font-family: var(--font-display);
+      font-style: italic;
+    }
+    .work__year {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+
+    .work__desc {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .work__text {
+      width: 80%;
+    }
+  }
+  .work__image {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 75%;
+  }
+
+  .backHome {
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.8rem;
+  }
+}
+
+// ------- Specific on Pages ------- //
+#EuroSpin {
+  $background: #fcfcfd;
+  $caps: #0066cc;
+  $title: #ffcc33;
+  $subtext: #000033;
+  $highlights: #000033;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $caps;
+    }
+    p {
+      color: $caps;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $background;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#DukiSantoGrial {
+  $background: #fdfefc;
+  $caps: #03c61a;
+  $title: #655eff;
+  $subtext: #ff8665;
+  $highlights: #655eff;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $subtext;
+    }
+    p {
+      color: $subtext;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $background;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#JadeHotel {
+  $background: #003519;
+  $caps: #00ba83;
+  $title: #d3bb8d;
+  $subtext: #dfe6d6;
+  $highlights: #734c2b;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $caps;
+    }
+    p {
+      color: $caps;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#GohanHouse {
+  $background: #1c1c1c;
+  $caps: #c48349;
+  $title: #f7733b;
+  $subtext: #ffffff;
+  $highlights: #f9a27d;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $title;
+    }
+    p {
+      color: $title;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#KiManagement {
+  $background: #31261d;
+  $caps: #cda077;
+  $title: #fefeef;
+  $subtext: #e0c6ad;
+  $highlights: #623412;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $highlights;
+    }
+    p {
+      color: $highlights;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#MyWay {
+  $background: #fff8e8;
+  $caps: #17c5ce;
+  $title: #e22613;
+  $subtext: #000;
+  $highlights: #ee7d71;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $title;
+    }
+    p {
+      color: $title;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#newEraBattles {
+  $background: #202020;
+  $caps: #7a4384;
+  $title: #fb8c23;
+  $subtext: #fefefe;
+  $highlights: #797979;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $caps;
+    }
+    p {
+      color: $caps;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#PosterDesign2022 {
+  $background: #101010;
+  $caps: #bffeb2;
+  $title: #5b59b1;
+  $subtext: #e5ddc7;
+  $highlights: #1f1e4b;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $title;
+    }
+    p {
+      color: $title;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#PosterDesign2023 {
+  $background: #000033;
+  $caps: #6e6eb3;
+  $title: #f39519;
+  $subtext: #f0f1ff;
+  $highlights: #0d0d80;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $highlights;
+    }
+    p {
+      color: $highlights;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $subtext;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}
+#Arehucas {
+  $background: #ffffff;
+  $caps: #ef8b00;
+  $title: #ad3300;
+  $subtext: #121512;
+  $highlights: #e1251b;
+
+  background: $background;
+
+  &:hover {
+    h2 {
+      color: $highlights;
+    }
+    p {
+      color: $highlights;
+    }
+  }
+
+  .backHome {
+    color: $caps;
+    border: 1px solid $caps;
+    &:hover {
+      border: 1px solid $highlights;
+      background: $highlights;
+      color: $background;
+    }
+  }
+
+  .work__info {
+    h5 {
+      color: $caps;
+    }
+    .work__title {
+      color: $title;
+    }
+    .work__desc {
+      color: $subtext;
+    }
+    .work__year {
+      color: $subtext;
+    }
+  }
+}

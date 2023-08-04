@@ -1,0 +1,127 @@
+#contact {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid var(--color-back);
+  border-bottom: 1px transparent;
+  margin: 0 auto;
+
+  .contact__title {
+    padding: 1rem;
+
+    h2 {
+      text-align: center;
+      color: var(--color-high);
+      font-family: var(--font-display);
+      font-size: 3rem;
+    }
+    h5 {
+      margin-bottom: 0.5rem;
+      text-align: center;
+      color: var(--color-mid);
+      font-size: 1.2rem;
+    }
+  }
+
+  .contact__container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 60% 40%;
+
+    // ========== FORM ========= //
+    form {
+      height: auto;
+      padding: 1.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+
+      border-top: 1px solid var(--color-back);
+      border-right: 1px solid var(--color-back);
+
+      align-content: center;
+      justify-content: center;
+      background: transparent;
+
+      font-family: var(--font-normal);
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 1.5rem;
+        background: transparent;
+        border: 1px solid var(--color-back);
+        resize: none;
+        color: var(--color-mid);
+      }
+      ::placeholder {
+        color: var(--color-brown);
+        font-family: var(--font-normal);
+      }
+    }
+
+    .contact__options {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin: 0 auto;
+
+      .contact__option {
+        height: 100%;
+        width: 100%;
+        border-top: 1px solid var(--color-back);
+        flex-direction: column;
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+
+        .info {
+          display: flex;
+          gap: 0.5rem;
+          margin: 0 auto;
+          width: 75%;
+          .contact__option-icon {
+            font-size: 2rem;
+          }
+        }
+        .btn {
+          width: 75%;
+          margin: 0.5rem auto 0;
+        }
+      }
+    }
+  }
+}
+
+/* ========================= Media Queries ========================= */
+
+// Medium Devices
+@media screen and (max-width: 100px) {
+  #contact {
+    .contact__container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+}
+
+// Small Devices
+@media screen and (max-width: 875px) {
+  #contact {
+    .contact__container {
+      width: var(--container-width-sm);
+      .contact__options {
+        .contact__option {
+          grid-template-areas: "name" "desc" "link";
+          grid-template-columns: 100%;
+          text-align: center;
+          h5 {
+            text-align: center;
+          }
+          .contact__option-icon {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
