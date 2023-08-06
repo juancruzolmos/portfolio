@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 import "../../../../i18nextConf";
 import { useTranslation } from "react-i18next";
@@ -36,6 +37,10 @@ function Nav() {
 
   const { t } = useTranslation();
 
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  };
   return (
     <div className="nav__container">
       <nav>

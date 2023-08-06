@@ -169,3 +169,34 @@
     font-size: 0.8rem;
   }
 }
+// ------- Global on Pages ------- //
+
+@media screen and (max-width: 767px) {
+  #footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo" "navigate" "news" "contact" "socials" "rights";
+    border: 1px solid var(--color-back);
+    .footer__logo {
+      border: 1px transparent;
+    }
+    .navigate {
+      border-left: 1px transparent;
+      border-right: 1px transparent;
+    }
+    .footer__news {
+      border-right: 1px transparent;
+    }
+    .footer__contact {
+      border-right: 1px transparent;
+    }
+    .footer__socials {
+      border-left: 1px transparent;
+      border-right: 1px transparent;
+    }
+    .footer__rights {
+      border-left: 1px transparent;
+      border-right: 1px transparent;
+    }
+  }
+}

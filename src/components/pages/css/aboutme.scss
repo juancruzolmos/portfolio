@@ -112,7 +112,6 @@
           display: flex;
           flex-direction: column;
           min-width: 25vw;
-
           margin: 0 0.5rem;
 
           .work__info {
@@ -171,8 +170,9 @@
 /* ========================= Media Queries ========================= */
 
 // Small Devices
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1080px) {
   .aboutme__container {
+    text-align: center;
     .headline {
       display: block;
       justify-content: center;
@@ -204,14 +204,21 @@
       }
 
       .main-experience-slider {
+        .slider-icon {
+          display: none;
+        }
+
         .workCard__container {
-          height: 20dvh;
+          text-align: left;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          row-gap: 0.5rem;
           .work__card {
-            height: 100%;
+            height: 15dvh;
             justify-content: center;
             .work__info {
               border-bottom: 1px solid var(--color-back);
-
               height: 100%;
             }
             .work__description {
@@ -219,6 +226,17 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-experience-slider {
+    .workCard__container {
+      flex-direction: column;
+      .work__card {
+        width: 95%;
       }
     }
   }

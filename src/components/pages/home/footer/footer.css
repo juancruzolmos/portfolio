@@ -159,4 +159,34 @@
   width: 100%;
   text-align: center;
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 767px) {
+  #footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo" "navigate" "news" "contact" "socials" "rights";
+    border: 1px solid var(--color-back);
+  }
+  #footer .footer__logo {
+    border: 1px transparent;
+  }
+  #footer .navigate {
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+  }
+  #footer .footer__news {
+    border-right: 1px transparent;
+  }
+  #footer .footer__contact {
+    border-right: 1px transparent;
+  }
+  #footer .footer__socials {
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+  }
+  #footer .footer__rights {
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+  }
 }/*# sourceMappingURL=footer.css.map */

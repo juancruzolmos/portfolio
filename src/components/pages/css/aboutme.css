@@ -149,7 +149,10 @@
 }
 
 /* ========================= Media Queries ========================= */
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1080px) {
+  .aboutme__container {
+    text-align: center;
+  }
   .aboutme__container .headline {
     display: block;
     justify-content: center;
@@ -178,11 +181,18 @@
     margin-bottom: 1rem;
     font-weight: bold;
   }
+  .aboutme__container .thirdSection .main-experience-slider .slider-icon {
+    display: none;
+  }
   .aboutme__container .thirdSection .main-experience-slider .workCard__container {
-    height: 20dvh;
+    text-align: left;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
   }
   .aboutme__container .thirdSection .main-experience-slider .workCard__container .work__card {
-    height: 100%;
+    height: 15dvh;
     justify-content: center;
   }
   .aboutme__container .thirdSection .main-experience-slider .workCard__container .work__card .work__info {
@@ -191,5 +201,13 @@
   }
   .aboutme__container .thirdSection .main-experience-slider .workCard__container .work__card .work__description {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-experience-slider .workCard__container {
+    flex-direction: column;
+  }
+  .main-experience-slider .workCard__container .work__card {
+    width: 95%;
   }
 }/*# sourceMappingURL=aboutme.css.map */

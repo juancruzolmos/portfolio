@@ -79,21 +79,24 @@
 /* ========================= Media Queries ========================= */
 
 // Medium Devices
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1080px) {
   .hero {
     height: 75vh;
   }
 }
 
 // Small Devices
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 500px) {
   .hero {
     height: 50vh;
+    padding: 0;
+
     h1 {
+      width: 100%;
       font-size: 2rem;
     }
     h2 {
-      max-width: 75%;
+      font-size: 1.1rem;
       align-self: center;
     }
   }

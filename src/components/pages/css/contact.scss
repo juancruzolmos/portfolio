@@ -95,33 +95,18 @@
 /* ========================= Media Queries ========================= */
 
 // Medium Devices
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1080px) {
   #contact {
     .contact__container {
       grid-template-columns: 1fr;
       gap: 2rem;
+      form {
+        border-right: 0px;
+      }
     }
   }
 }
 
 // Small Devices
 @media screen and (max-width: 875px) {
-  #contact {
-    .contact__container {
-      width: var(--container-width-sm);
-      .contact__options {
-        .contact__option {
-          grid-template-areas: "name" "desc" "link";
-          grid-template-columns: 100%;
-          text-align: center;
-          h5 {
-            text-align: center;
-          }
-          .contact__option-icon {
-            display: none;
-          }
-        }
-      }
-    }
-  }
 }

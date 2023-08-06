@@ -29,7 +29,6 @@
   font-family: var(--font-normal);
 }
 #contacto .contacto__container form input {
-  width: 25vw;
   border-bottom: 1px solid var(--color-back);
   background: transparent;
   font-style: italic;
@@ -62,4 +61,25 @@
   font-family: var(--font-italic);
   font-style: italic;
   font-size: 0.9rem;
+}
+
+/* ========================= Media Queries ========================= */
+@media screen and (max-width: 500px) {
+  #contacto {
+    padding-top: 6rem;
+  }
+  #contacto .contacto__container {
+    width: 100%;
+  }
+  #contacto .contacto__container h1 {
+    font-size: 2rem;
+  }
+  #contacto .contacto__container form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contacto .contacto__container form input {
+    width: 100%;
+  }
 }/*# sourceMappingURL=homecontact.css.map */

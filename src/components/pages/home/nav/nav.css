@@ -1,9 +1,12 @@
 .nav__container {
-  width: 100%;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
 }
 .nav__container nav {
   background: none;
-  width: 75vw;
+  width: 100%;
   margin: auto;
   padding: 1.2rem 0;
   display: flex;
@@ -35,7 +38,7 @@
   font-size: 1.1rem;
   font-weight: 400;
   text-align: center;
-  width: 5rem;
+  width: 1.2rem;
 }
 .langSelector .language__content {
   display: none;
@@ -66,6 +69,9 @@
 .langSelector:hover .language__content {
   display: block;
 }
-.langSelector:hover .dropbtn {
-  background-color: #3e8e41;
+
+@media screen and (max-width: 500px) {
+  .nav__container nav {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=nav.css.map */

@@ -29,6 +29,10 @@
 .default .work__items .default-card .default-card-info {
   background: var(--color-fore);
   padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .default .work__items .default-card .default-card-info h2 {
   font-weight: bold;
@@ -409,4 +413,22 @@
 }
 #Arehucas .work__info .work__year {
   color: #121512;
+}
+
+/* ========================= Media Queries ========================= */
+@media screen and (max-width: 1080px) {
+  .default .work__grid .work__items .default-card .default-card-info {
+    justify-content: center;
+    align-items: center;
+    height: 15dvh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .default .work__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .default .work__grid .work__items .default-card .default-card-info {
+    height: 7dvh;
+  }
 }/*# sourceMappingURL=work.css.map */

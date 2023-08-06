@@ -85,25 +85,12 @@
 }
 
 /* ========================= Media Queries ========================= */
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1080px) {
   #contact .contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-}
-@media screen and (max-width: 875px) {
-  #contact .contact__container {
-    width: var(--container-width-sm);
-  }
-  #contact .contact__container .contact__options .contact__option {
-    grid-template-areas: "name" "desc" "link";
-    grid-template-columns: 100%;
-    text-align: center;
-  }
-  #contact .contact__container .contact__options .contact__option h5 {
-    text-align: center;
-  }
-  #contact .contact__container .contact__options .contact__option .contact__option-icon {
-    display: none;
+  #contact .contact__container form {
+    border-right: 0px;
   }
 }/*# sourceMappingURL=contact.css.map */
