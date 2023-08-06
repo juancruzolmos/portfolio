@@ -186,7 +186,13 @@
     }
     .footer__news {
       border-right: 1px transparent;
+      form {
+        input {
+          width: 90%;
+        }
+      }
     }
+
     .footer__contact {
       border-right: 1px transparent;
     }
